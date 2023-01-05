@@ -2,7 +2,12 @@
   package="com.camera_module_faq_d_54498">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  
+  
     <application
       android:name=".MainApplication"
       android:label="@string/original_app_name"
